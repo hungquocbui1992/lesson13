@@ -1,0 +1,47 @@
+   
+.image {
+    width: 25%;
+    float: left;
+    padding: 0 6px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    border: 1px solid rgb(189, 178, 178);
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery:hover {
+    border: 1px solid black;
+}
+
+.gallery div {
+    text-align: center;
+    padding: 15px;
+}
+
+.para {
+    clear: both;
+    padding: 10px;
+}
+
+.para p {
+    padding: 5px;
+}
+
+@media screen and (max-width:700px) {
+    .image {
+        width: 50%;
+    }
+}
+
+@media screen  and (max-width:500px){
+    .image {
+        width: 100%;
+    }
+}
